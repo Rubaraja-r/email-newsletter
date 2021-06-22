@@ -1,6 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
+*,
+*::after,*::before {
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    background-color: floralwhite;
+}
+html{
+    font-size: 16px;
+}
 body
 {
     font-family: 'PT Serif', serif;
+}
+.container {
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+
 }
