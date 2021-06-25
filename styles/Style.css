@@ -5,7 +5,7 @@
     margin: 0;
     padding : 0;
     box-sizing: border-box;
-    background-color: floralwhite;
+   
 }
 html{
     font-size: 16px;
@@ -18,5 +18,150 @@ body
     width:80%;
     margin:auto;
     overflow: hidden;
+    
 
+}/* 1 rem =16px which makes the page si */
+a{
+    text-decoration:none ;
+    color:brown;
+   
+    
 }
+li{
+     list-style: none;
+     color:rgb(66, 25, 104);
+    
+}
+nav {
+    background-color:rgb(79, 236, 171);
+    color:#a52a2a;
+    font-size: 2 rem;
+    padding-top: 1 rem 0;
+    min-height: 5rem;
+    border-bottom:3px solid blue;
+}
+nav li{
+    float: left;
+    display: inline;
+    padding: 0 1.5rem 0 1.5rem;
+    margin-top: 1.3rem;
+  
+}
+nav .branding{
+    float: left;
+    margin-top: 0.9rem;
+  
+}
+nav .branding a {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight:bolder ;
+}
+   
+nav .branding a i{
+    margin-right: 0.5rem;
+    color:blue ;
+    
+}
+nav ul {
+    float: right;
+   
+}
+nav ul li{
+   
+    font-weight: bold;
+}
+nav ul li a.active:hover{
+    color:rgb(220, 20, 160);
+}
+header {
+    min-height: 35rem;
+    background: url('../images/banner-design-services-500x500.jpg') no-repeat center;
+    background-size: cover;
+    text-align:center ;
+    color:white;
+    font-size: 1.5rem;
+}
+header h1{
+    margin-top: 5rem;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color:floralwhite;
+    font-weight: bold;
+    
+}
+section.news-letter{
+    min-height: 5rem;
+    background-color:rgb(79, 236, 171);
+}
+section.news-letter h2{
+       float: left;
+       display: inline;
+       color: brown;
+       font-weight: bold;
+       margin-top:1.3rem;
+       
+}
+section.news-letter form {
+    float:right;
+    margin-top:1.5rem;
+    
+       
+}
+section.news-letter form button.btn{
+    background-color: red;
+    height: 1.5rem;
+    cursor:pointer;
+}
+.news-letter input[type='email'] {
+    padding: 0.5rem;
+    height: 1.6rem;
+}
+.cards h3 {
+    
+    flex-direction: row;
+    color: brown;
+    padding:1rem 0;
+    text-align: center;
+}
+
+
+.cards i { 
+     padding: 20px;
+     border: 5px solid black;
+     color: rgb(79, 236, 171);
+     padding-bottom: 0.5rem;
+     
+}
+.cards {
+   background:floralwhite;
+   padding: 1rem 0 1rem;
+   text-align: center;
+   
+}
+.cards .container {
+    display:flex;
+    flex-direction: wrap;
+    flex-direction: row;
+   
+}
+    
+section.cards {
+    min-height: 6rem;  
+   
+}
+footer{
+    min-height: 3rem;
+    background: rgb(79, 236, 171);
+    text-align: center;
+    font-weight: bold;
+}
+.cards .container.card {
+    width: 30%;
+    
+}
+.cards .container.card p{
+    text-align:center;
+    font-size: 1rem;
+}
+
