@@ -156,12 +156,53 @@ footer{
     text-align: center;
     font-weight: bold;
 }
-.cards .container.card {
-    width: 30%;
-    
+.cards p{
+    width:90%;
 }
 .cards .container.card p{
     text-align:center;
     font-size: 1rem;
+   
 }
+section.aboutUs {
+    min-height: 10rem;
+    display:inline-flex;
+    margin-bottom: 3rem;
+    background: floralwhite;
+}
+section .segment{
+    
+    font-size: 1rem;
+    margin-left: 10rem;
+    margin-top: 3rem;    
+}
+.segment p{
+    width: 80%;  
+}
+.segments h3{
+    display:inline-flex;
+    flex-direction: row;
+    
+}
+.segments {
+    margin-top: 8rem;
+    margin-right: 16rem;
+    background-color: rgb(79, 236, 171);
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem; 
+}
+footer .cont {
 
+    min-height:5rem;
+ 
+}
+.alx p{
+   
+    background-color: rgb(79, 236, 171);
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
