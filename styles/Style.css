@@ -124,8 +124,6 @@ section.news-letter form button.btn{
     padding:1rem 0;
     text-align: center;
 }
-
-
 .cards i { 
      padding: 20px;
      border: 5px solid black;
@@ -206,3 +204,49 @@ footer .cont {
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
+section.page{
+    min-height: 39rem;
+    background: floralwhite;
+    display:flex;
+   
+   
+}    
+.segment1 {
+    margin-top: 1rem;
+    margin-left: 8rem;
+    width:55%;
+    background-color:rgb(79, 236, 171) ;
+    margin-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+}
+.segment3 {
+    margin-top: 10rem;
+    padding-left: 6rem;    
+}
+.rec{
+    background-color:rgb(79, 236, 171) ;
+     padding-left: 3rem;
+     padding-right: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+form input {
+   display:flex;
+}
+form{
+    font-weight: bold;
+}
+.segment1 h3{
+    margin-top: 1rem;
+}
+.rec .btn{
+    margin-top: 1rem ;
+    width:5rem;
+    color:blue;
+    background-color: cornsilk;
+    font-weight: bold;
+}
+
