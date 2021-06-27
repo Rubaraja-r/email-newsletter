@@ -112,6 +112,7 @@ section.news-letter form button.btn{
     background-color: red;
     height: 1.5rem;
     cursor:pointer;
+    
 }
 .news-letter input[type='email'] {
     padding: 0.5rem;
@@ -248,5 +249,6 @@ form{
     color:blue;
     background-color: cornsilk;
     font-weight: bold;
+    cursor:pointer;
 }
 
